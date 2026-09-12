@@ -1,0 +1,45 @@
+body {
+    background-color: #f5f6f4;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.navbar-finanzas {
+    background-color: #16342e;
+}
+
+.navbar-finanzas .navbar-brand {
+    color: #e8f0ec;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+.tarjeta-formulario {
+    max-width: 560px;
+    margin: 3rem auto;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.btn-entrada {
+    background-color: #1f6f54;
+    border: none;
+}
+
+.btn-entrada:hover {
+    background-color: #185a44;
+}
+
+.tabla-finanzas {
+    max-width: 900px;
+    margin: 2.5rem auto;
+}
+
+.foto-factura-mini {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid #dcdcdc;
+}
