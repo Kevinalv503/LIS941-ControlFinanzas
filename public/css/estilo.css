@@ -43,3 +43,30 @@ body {
     cursor: pointer;
     border: 1px solid #dcdcdc;
 }
+
+.login-card {
+    max-width: 440px;
+}
+
+.dashboard {
+    max-width: 900px;
+    margin: 3rem auto;
+}
+
+.dashboard-option {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 1.25rem;
+    color: #16342e;
+    text-decoration: none;
+    background: #ffffff;
+    border: 1px solid #dfe5e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-option:hover {
+    border-color: #1f6f54;
+    color: #185a44;
+}

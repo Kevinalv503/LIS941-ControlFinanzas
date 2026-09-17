@@ -5,6 +5,9 @@ const multer = require('multer');
 const path = require('path');
 const router = express.Router();
 const Entradas = require('../models/Entradas');
+const requiereSesion = require('../middleware/auth');
+
+router.use(requiereSesion);
 
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
