@@ -34,8 +34,7 @@ function encabezado(titulo) {
         <body>
             <nav class="navbar navbar-finanzas navbar-dark mb-4">
                 <div class="container">
-                    <a class="navbar-brand" href="/dashboard">Control de Finanzas</a>
-                    <a class="btn btn-outline-light btn-sm" href="/dashboard">Volver al menú</a>
+                    <span class="navbar-brand">Control de Finanzas</span>
                 </div>
             </nav>
     `;
