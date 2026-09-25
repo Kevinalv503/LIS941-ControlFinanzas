@@ -24,9 +24,11 @@ app.use('/uploads', requiereSesion, express.static('uploads'));
 const rutasLogin = require('./routes/login');
 const rutaDashboard = require('./routes/dashboard');
 const rutasEntradas = require('./routes/entradas');
+const rutasBalance = require('./routes/balance');
 app.use('/', rutasLogin);
 app.use('/', rutaDashboard);
 app.use('/', rutasEntradas);
+app.use('/', rutasBalance);
 
 app.get('/', (req, res) => {
     res.redirect(req.session && req.session.usuario ? '/dashboard' : '/login');
