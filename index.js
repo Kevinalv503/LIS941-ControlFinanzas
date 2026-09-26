@@ -24,10 +24,12 @@ app.use('/uploads', requiereSesion, express.static('uploads'));
 const rutasLogin = require('./routes/login');
 const rutaDashboard = require('./routes/dashboard');
 const rutasEntradas = require('./routes/entradas');
+const rutasSalidas = require('./routes/salidas');
 const rutasBalance = require('./routes/balance');
 app.use('/', rutasLogin);
 app.use('/', rutaDashboard);
 app.use('/', rutasEntradas);
+app.use('/', rutasSalidas);
 app.use('/', rutasBalance);
 
 app.get('/', (req, res) => {

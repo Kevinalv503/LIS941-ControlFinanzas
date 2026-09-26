@@ -41,6 +41,18 @@ router.get('/dashboard', requiereSesion, (req, res) => {
                         </a>
                     </div>
                     <div class="col-md-6">
+                        <a class="dashboard-option" href="/registrar-salida">
+                            <strong>Registrar salida</strong>
+                            <span>Guarda un gasto con su factura.</span>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a class="dashboard-option" href="/ver-salidas">
+                            <strong>Ver salidas</strong>
+                            <span>Consulta los gastos registrados.</span>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
                         <a class="dashboard-option" href="/balance">
                             <strong>Mostrar balance</strong>
                             <span>Reporte de entradas vs. salidas con gráfico y PDF.</span>
